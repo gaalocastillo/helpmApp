@@ -1,32 +1,68 @@
-<!DOCTYPE html>
-<html>
   <head>
-  <title>HelpMapp-Sistema de Administración:Index</title>
-    <style>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>HelpMapp-Sistema de Administración:Index</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+      <style>
        #map {
         height: 400px;
         width: 100%;
        }
     </style>
+
+
+
+
   </head>
   <body>
-    <h3>My Google Maps Demo</h3>
-    <div id="map"></div>
-    <script>
-      function initMap() {
-        var uluru = {lat: -25.363, lng: 131.044};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpbmElX0xQcjb9FB3Vk32-lj8kNiXcQ7k&callback=initMap">
-    </script>
+
+  <div>
+    <section class="main row">
+
+      <div class="col-sm-3 col-md-3 navSuperAdmin">
+            <ul class="nav nav-sidebar">
+              <li class="active"><a href="#">Inicio <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">Buscar centro de acopio</a></li>
+              <li><a href="#">Configuración</a></li>
+              <li><a href="#">Crear cuenta administrador</a></li>
+            </ul>
+       </div>
+
+
+      <div class="col-sm-9 col-md-7">
+        <h3>My Google Maps Demo</h3>
+        <div id="map"></div>
+        <script>
+            function initMap() {
+              var uluru = {lat: -25.363, lng: 131.044};
+              var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 4,
+                center: uluru
+              });
+              var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+              });
+            }
+        </script>
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpbmElX0xQcjb9FB3Vk32-lj8kNiXcQ7k&callback=initMap">
+        </script>
+
+      </div>
+    </section>
+  </div>
+
   </body>
 </html>
