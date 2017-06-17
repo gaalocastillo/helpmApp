@@ -1,3 +1,14 @@
 menuSuperAdmin{
 background-color: lightBlue;
 }
+.form-horizontal .control-label {
+	text-align:left;
+}
+#div_submit{
+    text-align:center;
+    margin-top: 2em;
+}
+h3 {
+    text-align: left;
+    padding-bottom: 1em;
+}
