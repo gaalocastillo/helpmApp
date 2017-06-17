@@ -12,3 +12,12 @@ h3 {
     text-align: left;
     padding-bottom: 1em;
 }
+
+img {
+	margin: auto;
+	width: 50%;
+}
+
+#logoDiv {
+	text-align: center;
+}
