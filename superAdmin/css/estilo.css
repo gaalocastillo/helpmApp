@@ -1,5 +1,6 @@
 .nav-sidebar{
-	background-color: lightBlue;
+	background-color: #dedede;
+	margin-left: 0;
 }
 .form-horizontal .control-label {
 	text-align:left;
@@ -11,4 +12,31 @@
 h3 {
     text-align: left;
     padding-bottom: 1em;
+}
+footer{
+	background-color: #333876;
+	color: #ffff00;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: underline;
+  background-color: #f1f1f3;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+.main{
+	padding-bottom: 60px;
+}
+
+body {
+	margin: 0 0 60px;
 }
