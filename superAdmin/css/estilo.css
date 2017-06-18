@@ -1,6 +1,10 @@
 .nav-sidebar{
 	background-color: #dedede;
-	margin-left: 0;
+	
+}
+.navbar-div{
+	padding-left: 0;
+
 }
 .form-horizontal .control-label {
 	text-align:left;
@@ -39,8 +43,8 @@ footer{
   text-decoration: underline;
   background-color: #f1f1f3;
 }
-
-.nav > li > a {
+.nav>li>a{
+	color: #555dbd;
 	font-size: 1em;
 	font-family: "Yantramanav", sans-serif;
 }
@@ -56,6 +60,11 @@ html {
 
 body {
 	margin: 0 0 60px;
+}
+
+.btn-primary{
+	background-color: #8585f7;
+	border-color: #8c92d6;
 }
 
 #cabecera {
@@ -87,5 +96,6 @@ hr {
 	font-size: 1.8em;
 	font-family: "Abel", sans-serif ;
 	letter-spacing: -0.05em;	
+
 
 }
