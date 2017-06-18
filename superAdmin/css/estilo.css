@@ -2,6 +2,9 @@
 	background-color: #dedede;
 	
 }
+.navSuperAdmin{
+	padding-left: 0;
+}
 .navbar-div{
 	padding-left: 0;
 
@@ -91,7 +94,7 @@ hr {
 	height: 4%;
 }
 
-#pageTitle {
+h3 {
 	color: #212a85;
 	font-size: 1.8em;
 	font-family: "Abel", sans-serif ;
