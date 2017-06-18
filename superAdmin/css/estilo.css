@@ -14,7 +14,6 @@ h3 {
     padding-bottom: 1em;
 }
 
-
 img {
 	margin: auto;
 	width: 50%;
@@ -22,6 +21,8 @@ img {
 
 #logoDiv {
 	text-align: center;
+
+}
 
 footer{
 	background-color: #333876;
@@ -39,6 +40,12 @@ footer{
   background-color: #f1f1f3;
 }
 
+.nav > li > a {
+	font-size: 1em;
+	font-family: "Yantramanav", sans-serif;
+}
+
+
 html {
 	position: relative;
 	min-height: 100%;
@@ -49,4 +56,36 @@ html {
 
 body {
 	margin: 0 0 60px;
+}
+
+#cabecera {
+	text-align: center;	
+	font-size: 1.3em;
+	font-family: "Abel", sans-serif;
+	letter-spacing: -0.05em;
+
+}
+
+hr {
+	margin-top: 0.5%;
+	margin-bottom: 0px;
+	height: 1px;
+	background-color: #212a85;
+}
+
+#logout {
+	text-align: right;
+}
+
+#logout img{
+	width: 4%;
+	height: 4%;
+}
+
+#pageTitle {
+	color: #212a85;
+	font-size: 1.8em;
+	font-family: "Abel", sans-serif ;
+	letter-spacing: -0.05em;	
+
 }
