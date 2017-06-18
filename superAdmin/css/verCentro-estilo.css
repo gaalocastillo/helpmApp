@@ -1,0 +1,10 @@
+.recuadro{
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: #fef20f;
+	margin: 1em;
+	border-radius: 1em;
+	text-align:center;
+	content: 0.1em;
+	padding: 5% 30% 5% 30%;
+}
