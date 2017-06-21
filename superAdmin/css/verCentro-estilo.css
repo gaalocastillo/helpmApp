@@ -1,3 +1,4 @@
+
 .recuadro{
 	border-style: solid;
 	border-width: 0.5px;
@@ -6,4 +7,19 @@
 	border-radius: 1em;
 	text-align:center;
 	
+}
+.panel-default>.panel-heading {
+	background-color: #6884b7;
+	color: #ffffff;
+}
+#seccion-graficos{
+	margin-top: 3em;
+}
+.panel-title {
+	width: 100%;
+	text-align: left;
+}
+.btn-info{
+	background-color: #212a85;
+	color: #ffffff;
 }
