@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>HelpMapp-Admin:Configurar cuenta</title>
+    <title>HelpMapp-Admin:Crear admin</title>
 
     <!-- Bootstrap -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <link href="../superAdmin/css/estilo.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
     
   <body>
     
@@ -47,35 +47,52 @@
    
     <div class="col-sm-3 col-md-3 navbar-div">
           <ul class="nav nav-sidebar">
-            <li class="active"><a href="#">Datos generales <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Inventario</a></li>
-            <li><a href="#">Crear producto</a></li>
-            <li><a href="#">Configuracion</a></li>
+            <li class="active"><a href="#">Inicio <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Buscar centro de acopio</a></li>
+            <li><a href="#">Configuración</a></li>
+            <li><a href="#">Crear cuenta administrador</a></li>
           </ul>
      </div>
-     <section class="col-sm-9 col-md-9 main">
+     <section class="col-sm-9 col-md-9">
        <div class="container col-sm-9 col-md-9 ">
-        <h3>Configuración de centro</h3>
+        <h3>Crear administrador</h3>
         <form class="form-horizontal" action="#">
           <div class="form-group">
-            <label class="control-label col-sm-4" for="oldpass">Capacidad máxima de agua:</label>
+            <label class="control-label col-sm-4" for="oldpass">Nombre de usuario:</label>
             <div class="col-sm-8">
-              <input type="text" class="form-control" id="oldpass" placeholder="contraseña" name="viejaclave">
+              <input type="text" class="form-control" id="oldpass" placeholder="nombre de usuario" name="viejaclave">
             </div>
           </div>
           <div class="form-group">
-            <label class="control-label col-sm-4" for="newpass"> Capacidad máxima de comida:</label>
+            <label class="control-label col-sm-4" for="newpass">Contraseña:</label>
             <div class="col-sm-8">          
-              <input type="text" class="form-control" id="newpass" placeholder="nueva contraseña" name="nuevaclave">
+              <input type="password" class="form-control" id="newpass" placeholder="contraseña" name="nuevaclave">
             </div>
           </div>
            <div class="form-group">
-            <label class="control-label col-sm-4" for="pwd">Capacidad máxima de ropa:</label>
+            <label class="control-label col-sm-4" for="pwd">Confirmar contraseña:</label>
             <div class="col-sm-8">          
-              <input type="text" class="form-control" id="pwd" placeholder="nueva contraseña" name="pwd">
+              <input type="password" class="form-control" id="pwd" placeholder="confirmar contraseña" name="pwd">
             </div>
           </div>
           
+          <div class="form-group">
+            <label class="control-label col-sm-4" for="pwd">Pregunta secreta:</label>
+               <select id = "questionsList">
+                 <option value = "mascota">Nombre de su primera mascota</option>
+                 <option value = "2">Nombre de profesora de tercer año </option>
+                 <option value = "3">Apodo de infancia</option>
+                 <option value = "4">Nombre de comida favorita</option>
+               </select>
+          </div>
+
+          <div class="form-group">
+            <label class="control-label col-sm-4" for="oldpass">Respuesta:</label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control" id="oldpass" placeholder="respuesta de pregunta secreta" name="viejaclave">
+            </div>
+          </div>
+
           <div class="form-group">        
             <div class="col-sm-offset-2 col-sm-10" id="div_submit">
               <button type="submit" class="btn btn-primary" id="btn-submit">Confirmar</button>
@@ -86,8 +103,8 @@
      </section>
           
      
-       <footer class="col-md-12">
-         <p>Todos los derechos reservados. TAWS 2017.</p>
+       <footer class="col-md-12 footer">
+         <p id="pe-footer">Todos los derechos reservados. TAWS 2017.</p>
        </footer>
     </div>
    
