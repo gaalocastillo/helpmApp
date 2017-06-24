@@ -23,3 +23,15 @@
 	background-color: #212a85;
 	color: #ffffff;
 }
+.btn-info.focus, .btn-info:focus{
+	background-color: #212a85;
+}
+#seccion-graficos{
+	margin-bottom: 4%;
+}
+@media only screen and (max-width:767px ){
+	.contenedor-recuadros{
+		padding-left: 25%;
+		padding-right: 25%
+	}
+}

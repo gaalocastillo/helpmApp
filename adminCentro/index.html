@@ -1,9 +1,101 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>HelpMapp-CAcopio:Index</title>
 
-</body>
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/verCentro-estilo.css">
+    
+  <body>
+  <header>
+    <div class="container-flex">
+      <div class="row">
+        <div id="logoDiv" class="col-md-4 col-md-offset-4">
+          <img src="../img/helpmappLogo.png" alt="logo">
+        </div>
+        <div class="col-md-4">
+          <p id="logout">
+          <img src="../img/cerrar-sesion.png">
+            Cerrar sesi&oacute;n
+          </p>
+        </div>
+
+
+      </div>
+
+      <div class="row">
+        <div id="titleId"  class="col-md-4 col-md-offset-4">
+          <h2 id="cabecera">
+            Sistema de administraci&oacute;n
+          </h2>  
+        </div>
+        
+      </div>
+
+      <div class="row">
+        <hr>
+      </div>
+    </div>    
+
+  </header>
+   
+    <div class="col-sm-3 col-md-3 navSuperAdmin">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="#">Inicio <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Inventario</a></li>
+            <ul>
+              <li class="active"><a href="#">Comida <span class="sr-only">(current)</span></a></li>
+              <li>Ropa</li>
+              <li>Agua</li>
+
+            </ul>
+            <li><a href="#">Agregar producto</a></li>
+            <li><a href="#">Configuración</a></li>
+          </ul>
+     </div>
+     <section class="col-sm-9 col-md-9">
+       <div class="container col-sm-9 col-md-9 ">
+        <h3>Estadísticas generales</h3> 
+      </div>
+     
+     <div class="container col-sm-9 col-md-9" id="info-centro">
+       <h4>UPC SALINAS #4</h4>
+       <p><b>Dirección:</b>Maria Luis Gonzalez Rubio Serrano 0 Y Calle Los Almendros</p>
+       <p><b>Ciudad:</b>Salinas</p>
+       <p><b>Provincia:</b>Santa Elena</p>
+
+     </div>
+     <div class="container col-sm-9 col-md-9 contenedor-recuadros">
+       <div class="recuadro col-md-3 col-sm-3">
+         <span id="cantidad">1234 kits</span>
+         <p>de alimentos</p>
+       </div>
+       <div class="recuadro col-md-3 col-sm-3">
+         <span id="cantidad">1234 kits</span>
+         <p>de alimentos</p>
+       </div>
+       <div class="recuadro col-md-3 col-sm-3">
+         <span id="cantidad">1234 kits</span>
+         <p>de alimentos</p>
+       </div>
+     </div>
+
+      </section>    
+     
+       
+    </div>
+    <footer class="col-md-12 footer">
+         <p>Todos los derechos reservados. TAWS 2017.</p>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>
