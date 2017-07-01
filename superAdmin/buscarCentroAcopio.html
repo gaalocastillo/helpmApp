@@ -11,6 +11,8 @@
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="css/estilo.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/verCentro-estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/estiloBuscarCentro.css">
+
     
   <body>
   <header>
@@ -53,45 +55,88 @@
             <li><a href="#">Crear cuenta administrador</a></li>
           </ul>
      </div>
-     <section class="col-sm-9 col-md-9">
+      <section class="col-sm-9 col-md-9">
        <div class="container col-sm-9 col-md-9 ">
-        <h3>Ver centro de acopio</h3> 
-      </div>
-     
-     <div class="container col-sm-9 col-md-9" id="info-centro">
-       <h4>UPC SALINAS #4</h4>
-       <p><b>Dirección:</b>Maria Luis Gonzalez Rubio Serrano 0 Y Calle Los Almendros</p>
-       <p><b>Ciudad:</b>Salinas</p>
-       <p><b>Provincia:</b>Santa Elena</p>
+        <h3>Buscar centro de acopio</h3>
+        
+        <h4 class="col-sm-5">Provincia:</h4>
+        <h4 class="col-sm-5">Canton: </h4> 
 
-     </div>
-     <div class="container col-sm-9 col-md-9 contenedor-recuadros">
-       <div class="recuadro col-md-3 col-sm-3">
-         <span id="cantidad">1234 kits</span>
-         <p>de alimentos</p>
-       </div>
-       <div class="recuadro col-md-3 col-sm-3">
-         <span id="cantidad">1234 kits</span>
-         <p>de alimentos</p>
-       </div>
-       <div class="recuadro col-md-3 col-sm-3">
-         <span id="cantidad">1234 kits</span>
-         <p>de alimentos</p>
-       </div>
-     </div>
+        <form class="form-vertical" action="#">
+          <div class="form-group col-sm-5 col-md-5 ">
+             <!--<label class="control-label col-sm-4" for="pwd"></label>-->
+               <select class="questionsList">
+                 <option value = "mascota">Guayas</option>
+                 <option value = "2">Nombre de profesora de tercer año </option>
+                 <option value = "3">Apodo de infancia</option>
+                 <option value = "4">Nombre de comida favorita</option>
+               </select>
+      
 
-      </section>    
-     <section class="col-sm-5 col-md-5 col-md-offset-3" id="seccion-graficos">
-        <div class="panel panel-default">
-          
-            <button type="button" class="btn btn-info panel-title" data-toggle="collapse" data-target="#grafico1">Número de kits donados por provincia</button>
-          
-          <div class="panel-body" id="grafico1">
-            <img src="img/grafico2.jpg">
           </div>
-        </div>
+        </form>
+        <form class="form-vertical" action="#">
+          <div class="form-group col-sm-5 col-md-5">
+              <!--<label class="control-label col-sm-4" for="pwd"></label>-->
+                 <select class="questionsList">
+                   <option value = "mascota">Guayaquil</option>
+                   <option value = "2">Nombre de profesora de tercer año </option>
+                   <option value = "3">Apodo de infancia</option>
+                   <option value = "4">Nombre de comida favorita</option>
+                 </select>
+          </div>
+        
+          <div class="form-group col-sm-2 col-md-2" id="div_submit">
+            <button type="submit" class="btn btn-primary" id="btn-submit">Buscar</button>
+          </div>
+          </div>
+        </form>
+      </div>
+      <div class="container col-sm-9 col-md-9">
+        <form class="form-horizontal" action="#">
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="oldpass">Nombre del centro:</label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control" id="oldpass" placeholder="nombre del centro de acopio" name="viejaclave">
+            </div>
+          </div>
+      </div>
+      <div class = "container col-sm-9 col-md-9">
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+
+        <table id="myTable">
+          <tr class="header">
+            <th style="width:60%;">Name</th>
+            <th style="width:40%;">Country</th>
+          </tr>
+          <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Germany</td>
+          </tr>
+          <tr>
+            <td>Berglunds snabbkop</td>
+            <td>Sweden</td>
+          </tr>
+          <tr>
+            <td>Island Trading</td>
+            <td>UK</td>
+          </tr>
+          <tr>
+            <td>Koniglich Essen</td>
+            <td>Germany</td>
+          </tr>
+        </table>
+
+
 
      </section>
+
+
+
+
+
+
+
        <footer class="col-md-12 footer">
          <p id="pe-footer">Todos los derechos reservados. TAWS 2017.</p>
        </footer>
