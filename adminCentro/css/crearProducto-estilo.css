@@ -1,0 +1,9 @@
+.contenedor-submit {
+    text-align: center;
+    padding-top: 10%;
+}
+@media only screen and (max-width: 768px){
+	.contenedor-submit{
+		padding-top: 2%;
+	}
+}

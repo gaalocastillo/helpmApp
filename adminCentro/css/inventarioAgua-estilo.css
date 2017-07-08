@@ -1,0 +1,34 @@
+.recuadro{
+	border-style: dashed;
+	border-width: 0.2em;
+	border-color: #fef20f;
+	border-radius: 1em;
+	text-align:center;
+	padding: 0.5em;
+	margin:auto;
+	width: 20%;
+
+	
+}
+
+.contenedor-recuadros{
+	align-content: center;
+	text-align: center;
+
+}
+#etiqueta-galones{
+	font-weight: bold;
+}
+
+
+.lista-acciones{
+	
+}
+.contenedor-radios{
+	padding-left: 38%;
+    padding-right: 40%;
+    margin-left: 0%;
+}
+@media only screen and (max-width: 768px){
+
+}

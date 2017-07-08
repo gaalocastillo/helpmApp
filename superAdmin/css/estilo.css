@@ -107,3 +107,18 @@ h3 {
     transform: translate(0%,-50%);
 
 }
+#cerrar-sesion{
+ 		display: none;
+ 	}
+@media only screen and (max-width:768px){
+ 	
+ 	.logout{
+ 		display: none;
+ 	}
+ 	#cerrar-sesion{
+ 		display: inherit;
+ 	}
+ 	.navSuperAdmin{
+		padding-right: 0px;
+	}
+ }
