@@ -10,7 +10,10 @@
     <!-- Bootstrap -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="css/estilo.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/verCentro-estilo.css">
+    <link href="css/index-estilo.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
+
+   
     
   <body>
   <header>
@@ -45,11 +48,11 @@
 
   </header>
    
-     <div class="col-sm-3 col-md-3 navSuperAdmin sidebar">
+     <div class="col-sm-2 col-md-2 navSuperAdmin sidebar">
           <ul class="nav nav-sidebar">
             <li class="active"><a href="#">Inicio <span class="sr-only">(current)</span></a></li>
            <li class="dropdown">
-              <a href="#demo" class="dropdown-toggle" data-toggle="collapse">Inventario <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-cog"></span></a>
+              <a href="#demo" class="dropdown-toggle" data-toggle="collapse">Inventario <span class="caret"></span><span style="font-size:16px;" class="pull-right hidden-xs showopacity glyphicon glyphicon-th-list"></span></a>
               
 
            </li>
@@ -75,7 +78,7 @@
             <li><a href="crearProducto.html">Agregar producto</a></li>
             <li><a href="configuracionCuenta.html">Configuración</a></li>
             <li id="cerrar-sesion"><a href="#">Cerrar sesi&oacuten</a></li>
-            <li><a href="#"><i class="glyphicon glyphicon-off"></i> Cerrar sesión</a></li>
+            <li id="li-cerrar-sesion"><a href="iniciarSesion.html">Cerrar sesión<i class="glyphicon glyphicon-off"></i></a></li>
           </ul>
      </div>
      <section class="col-sm-9 col-md-9">
@@ -105,16 +108,48 @@
        </div>
      </div>
 
+
+
+    <!--  <div id="contenedor-progress-bar"></div>-->
+    <div id="page" class="page">
+  <div class="progress-bar">
+    <canvas id="inactiveProgress" class="progress-inactive" height="275px" width="275px"></canvas>
+    <canvas id="activeProgress" class="progress-active"  height="275px" width="275px"></canvas>
+    <p>0%</p>
+  </div>
+  <div id="progressControllerContainer">
+    <input type="range" id="progressController" min="0" max="100" value="15" />
+  </div>
+</div>
+
+
+
+
       </section>    
      
+<!--      <div class="progress-bar" data-percent="60" data-duration="1000" data-color="#ccc,yellow"></div>-->
+
+
+
        
-    </div>
+    
     <footer class="col-md-12 footer">
          <p>Todos los derechos reservados. TAWS 2017.</p>
     </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+     <!--<script src="progressbar.js/dist/progressbar.js"></script>
+     <script type="text/javascript" src="js/progress-bar.js"></script>
+     <script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+     <script src="circular-bar.js/jQuery-plugin-progressbar.js"></script>
+     <script type="text/javascript">
+       $(".progress-bar").loading();
+
+     </script>-->
+
+
   </body>
 </html>
