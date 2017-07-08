@@ -14,12 +14,12 @@
   <body>
     
   <header>
-    <div class="container col-md-12 header">
+    <div class="container-flex">
       <div class="row">
-        <div class="col-md-4 col-md-offset-4" id="logoDiv" >
+        <div id="logoDiv" class="col-md-4 col-md-offset-4">
           <img src="../img/helpmappLogo.png" alt="logo">
         </div>
-        <div class="col-md-4 logout">
+        <div class="col-md-4">
           <p id="logout">
           <img src="../img/cerrar-sesion.png">
             Cerrar sesi&oacute;n
@@ -45,50 +45,40 @@
 
   </header>
    
-   <div class="col-sm-3 col-md-3 navSuperAdmin">
+    <div class="col-sm-3 col-md-3 navbar-div">
           <ul class="nav nav-sidebar">
-            <li class="active"><a href="index.html">Inicio <span class="sr-only">(current)</span></a></li>
-            <li>Inventario</li>
-            <ul class="nav nav-sidebar">
-              <li class="active"><a href="#">Comida <span class="sr-only">(current)</span></a></li>
-              <li><a href="inventarioRopa.html">Ropa</a></li>
-              <li><a href="inventarioAgua.html">Agua</a></li>
-
-            </ul>
-            <li><a href="crearProducto.html">Agregar producto</a></li>
+            <li class="active"><a href="#">Inicio <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Buscar centro de acopio</a></li>
             <li><a href="#">Configuración</a></li>
-            <li id="cerrar-sesion"><a href="#">Cerrar sesi&oacuten</a></li>
+            <li><a href="#">Crear cuenta administrador</a></li>
           </ul>
      </div>
-     <section class="col-sm-9 col-md-9 main">
+     <section class="col-sm-9 col-md-9">
        <div class="container col-sm-9 col-md-9 ">
-        <h3>Configuración de centro</h3>
+        <h3>Configuración de cuenta</h3>
         <form class="form-horizontal" action="#">
           <div class="form-group">
-            <label class="control-label col-sm-4" for="maxagua">Capacidad máxima de agua:</label>
+            <label class="control-label col-sm-4" for="oldpass">Contraseña actual:</label>
             <div class="col-sm-8">
-              <input type="digit" class="form-control" id="maxagua" placeholder="43 litros" name="maxagua">
-
+              <input type="password" class="form-control" id="oldpass" placeholder="contraseña" name="viejaclave">
             </div>
           </div>
           <div class="form-group">
-            <label class="control-label col-sm-4" for="maxcom"> Capacidad máxima de comida:</label>
+            <label class="control-label col-sm-4" for="newpass">Nueva contraseña:</label>
             <div class="col-sm-8">          
-              <input type="digit" class="form-control" id="maxcom" placeholder="200 kg" name="maxcom">
+              <input type="password" class="form-control" id="newpass" placeholder="nueva contraseña" name="nuevaclave">
             </div>
           </div>
-
            <div class="form-group">
-            <label class="control-label col-sm-4" for="maxropa">Capacidad máxima de ropa:</label>
+            <label class="control-label col-sm-4" for="pwd">Confirmar contraseña:</label>
             <div class="col-sm-8">          
-              <input type="digit" class="form-control" id="maxropa" placeholder="1500 prendas" name="maxropa">
-
+              <input type="password" class="form-control" id="pwd" placeholder="nueva contraseña" name="pwd">
             </div>
           </div>
           
           <div class="form-group">        
             <div class="col-sm-offset-2 col-sm-10" id="div_submit">
-              <button type="submit" class="btn btn-primary" id="btn-submit">Guardar</button>
+              <button type="submit" class="btn btn-primary" id="btn-submit">Confirmar</button>
             </div>
         </div>
         </form>
@@ -96,8 +86,8 @@
      </section>
           
      
-       <footer class="col-md-12 footer">
-         <p id="pe-footer">Todos los derechos reservados. TAWS 2017.</p>
+       <footer class="col-md-12">
+         <p>Todos los derechos reservados. TAWS 2017.</p>
        </footer>
     </div>
    

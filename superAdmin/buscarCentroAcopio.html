@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>HelpMapp-Admin:Configurar cuenta</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/verCentro-estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/estiloBuscarCentro.css">
+
+    
+  <body>
+  <header>
+    <div class="container-flex">
+      <div class="row">
+        <div id="logoDiv" class="col-md-4 col-md-offset-4">
+          <img src="../img/helpmappLogo.png" alt="logo">
+        </div>
+        <div class="col-md-4">
+          <p id="logout">
+          <img src="../img/cerrar-sesion.png">
+            Cerrar sesi&oacute;n
+          </p>
+        </div>
+
+
+      </div>
+
+      <div class="row">
+        <div id="titleId"  class="col-md-4 col-md-offset-4">
+          <h2 id="cabecera">
+            Sistema de administraci&oacute;n
+          </h2>  
+        </div>
+        
+      </div>
+
+      <div class="row">
+        <hr>
+      </div>
+    </div>    
+
+  </header>
+   
+    <div class="col-sm-3 col-md-3 navSuperAdmin">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="#">Inicio <span class="sr-only">(current)</span></a></li>
+            <li><a href="#">Buscar centro de acopio</a></li>
+            <li><a href="#">Configuración</a></li>
+            <li><a href="#">Crear cuenta administrador</a></li>
+          </ul>
+     </div>
+      <section class="col-sm-9 col-md-9">
+       <div class="container col-sm-9 col-md-9 ">
+        <h3>Buscar centro de acopio</h3>
+        
+        <h4 class="col-sm-5">Provincia:</h4>
+        <h4 class="col-sm-5">Canton: </h4> 
+
+        <form class="form-vertical" action="#">
+          <div class="form-group col-sm-5 col-md-5 ">
+             <!--<label class="control-label col-sm-4" for="pwd"></label>-->
+               <select class="questionsList">
+                 <option value = "mascota">Guayas</option>
+                 <option value = "2">Nombre de profesora de tercer año </option>
+                 <option value = "3">Apodo de infancia</option>
+                 <option value = "4">Nombre de comida favorita</option>
+               </select>
+      
+
+          </div>
+        </form>
+        <form class="form-vertical" action="#">
+          <div class="form-group col-sm-5 col-md-5">
+              <!--<label class="control-label col-sm-4" for="pwd"></label>-->
+                 <select class="questionsList">
+                   <option value = "mascota">Guayaquil</option>
+                   <option value = "2">Nombre de profesora de tercer año </option>
+                   <option value = "3">Apodo de infancia</option>
+                   <option value = "4">Nombre de comida favorita</option>
+                 </select>
+          </div>
+        
+          <div class="form-group col-sm-2 col-md-2" id="div_submit">
+            <button type="submit" class="btn btn-primary" id="btn-submit">Buscar</button>
+          </div>
+          </div>
+        </form>
+      </div>
+      <div class="container col-sm-9 col-md-9">
+        <form class="form-horizontal" action="#">
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="oldpass">Nombre del centro:</label>
+            <div class="col-sm-8">
+              <input type="text" class="form-control" id="oldpass" placeholder="nombre del centro de acopio" name="viejaclave">
+            </div>
+          </div>
+      </div>
+      <div class = "container col-sm-9 col-md-9">
+        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+
+        <table id="myTable">
+          <tr class="header">
+            <th style="width:60%;">Name</th>
+            <th style="width:40%;">Country</th>
+          </tr>
+          <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Germany</td>
+          </tr>
+          <tr>
+            <td>Berglunds snabbkop</td>
+            <td>Sweden</td>
+          </tr>
+          <tr>
+            <td>Island Trading</td>
+            <td>UK</td>
+          </tr>
+          <tr>
+            <td>Koniglich Essen</td>
+            <td>Germany</td>
+          </tr>
+        </table>
+
+
+
+     </section>
+
+
+
+
+
+
+
+       <footer class="col-md-12 footer">
+         <p id="pe-footer">Todos los derechos reservados. TAWS 2017.</p>
+       </footer>
+    </div>
+   
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
