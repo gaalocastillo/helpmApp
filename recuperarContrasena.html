@@ -1,42 +1,93 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-	<title>HelpMapp-Sistema de administración:Login</title>
-	<meta charset="utf-8">
-</head>
-<body>
-	<header>
-		<div>
-			<img src="img/helpmappLogo.png">
-		</div>
-		<div>
-			<h1 id="tituloCabecera">
-				Sistema de Administración
-			</h1>
-		</div>
-		<hr>
-	</header>
-	<section class="formBox">
-		<form>
-			<div id="preguntaBox">
-				<label>Pregunta</label><br>
-				<p>Nombre de su primera mascota</p>
-			</div>
-			<div id="respuestaBox">
-				<label for="respuesta">Respuesta</label><br>
-				<input type="text" name="answer" id="respuesta"><br>
-			</div>
-			<div id="acceptBox">
-				<input type="submit" name="accept" value="Aceptar">
-			</div>		
-		</form>
-	</section>
-<footer>
-	<p>
-		Todos los derechos reservados. TAWS. 2017
-	</p>
-</footer>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>HelpMapp-Admin:Configurar cuenta</title>
+
+    <!-- Bootstrap -->
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
+    
+  <body>
+    
+  <header>
+    <div class="container col-md-12 header">
+      <div >
+        <div class="col-md-4 col-md-offset-4" id="logoDiv" >
+          <img src="./img/helpmappLogo.png" alt="logo">
+        </div>
+        <div class="col-md-4 logout">
+          <p id="logout">
+          <img src="./img/cerrar-sesion.png">
+            Cerrar sesi&oacute;n
+          </p>
+        </div>
 
 
-</body>
+      </div>
+
+      <div>
+        <div id="titleId"  class="col-md-4 col-md-offset-4">
+          <h2 id="cabecera">
+            Sistema de administraci&oacute;n
+          </h2>  
+        </div>
+        
+      </div>
+
+      <div>
+        <hr>
+      </div>
+    </div>    
+  </header>
+     <section class="col-sm-9 col-md-9 col-sm-offset-3">
+       <div class="container col-sm-9 col-md-9 ">
+        <h3>Recuperar contraseña</h3>
+        <form class="form-horizontal" action="#">
+          <div class="form-group">
+            <label class="control-label col-sm-4" for="oldpass">Nombre de usuario: </label>
+            <div class="col-sm-6">
+              <input type="text" class="form-control" id="oldpass" placeholder="usuario" name="viejaclave">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="control-label col-sm-4" for="pwd">Pregunta secreta:</label>
+               <select id = "questionsList" class="col-sm-6">
+                 <option value = "mascota">Nombre de su primera mascota</option>
+                 <option value = "2">Nombre de profesora de tercer año </option>
+                 <option value = "3">Apodo de infancia</option>
+                 <option value = "4">Nombre de comida favorita</option>
+               </select>
+          </div>
+           <div class="form-group">
+            <label class="control-label col-sm-4" for="pwd">Respuesta: </label>
+            <div class="col-sm-6">          
+              <input type="password" class="form-control" id="pwd" placeholder="respuesta de pregunta secreta" name="pwd">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="col-sm-6" id="div_submit">
+              <button type="submit" class="btn btn-primary" id="btn-submit">Atr&aacute;s</button>
+            </div>
+            <div class="col-sm-2" id="div_submit">
+              <button type="submit" class="btn btn-primary" id="btn-submit">Confirmar</button>
+            </div>
+
+        </div>
+        </form>
+      </div>
+     </section>
+       <footer class="col-md-12 footer">
+         <p id="pe-footer">Todos los derechos reservados. TAWS 2017.</p>
+       </footer>
+    </div>
+   
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>

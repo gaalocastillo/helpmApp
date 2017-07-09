@@ -7,21 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <!-- Bootstrap -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="css/estilo.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/estiloLogin.css" rel="stylesheet">
 </head>
 <body>
-
-
   <header>
     <div class="container col-md-12 header">
-      <div >
+      <div>
         <div class="col-sm-4 col-sm-offset-4" id="logoDiv" >
           <img src="./img/helpmappLogo.png" alt="logo">
         </div>
-
       </div>
-
       <div>
         <div id="titleId"  class="col-sm-4 col-sm-offset-4">
           <h2 id="cabecera">
@@ -30,54 +27,40 @@
         </div>
         
       </div>
-
       <div>
         <hr>
       </div>
-    </div>    
-
+    </div>  
   </header>
-
-
-
-
-
-
-	<section class="formBox">
-		<form>
-			<div id="usuarioBox">
-				<label for="usuario">Nombre de usuario: </label><br>
-				<input type="text" name="user" id="usuario">
-			</div>
-			<div id="contrasenaBox">
-				<label for="contrasena">Contraseña</label><br>
-				<input type="password" name="pass" id="contrasena"><br>
-				<a href="">¿Olvidó su contraseña?</a>
-			</div>
-			<div id="loginBox">
-				<input type="submit" name="login" value="Iniciar sesión">
-			</div>
-		</form>
-	</section>
-
-<!-- 
-<form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label><br>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  <div class="col-sm-4 col-sm-offset-4">
+   <section class="formBox col-sm-12">
+        <form class="form-horizontal formLogin" action="#">
+          <h4 class="col-sm-4 col-sm-offset-4">Conectarse</h4>
+          <div class="form-group">
+            <label class="control-label col-sm-5" for="oldpass">Nombre de usuario: </label>
+            <div class="col-sm-6">
+              <input type="password" class="form-control" id="oldpass" placeholder="usuario" name="viejaclave">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-5" for="newpass">Contraseña:</label>
+            <div class="col-sm-6">          
+              <input type="password" class="form-control" id="newpass" placeholder="contraseña" name="nuevaclave">
+              <a href="#">¿Olvidaste tu contraseña?</a>
+            </div>
+          </div>
+          <div class="form-group">        
+            <div class="col-sm-offset-2 col-sm-10" id="div_submit">
+              <button type="submit" class="btn btn-primary" id="btn-submit">Conectarse</button>
+            </div>
+        </div>
+        </form>
+	 </section>
   </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
- </form> -->
-
-
-<footer>
-	<p>
-		Todos los derechos reservados. TAWS. 2017
-	</p>
-</footer>
+  <div class="col-sm-3">  </div>
+       <footer class="col-md-12 footer">
+         <p id="pe-footer">Todos los derechos reservados. TAWS 2017.</p>
+       </footer>
 
 </body>
 </html>
