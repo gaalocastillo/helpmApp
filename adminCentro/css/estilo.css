@@ -44,7 +44,9 @@ img {
 	text-align: center;
 
 }
-
+.glyphicon{
+	font-size:16px;
+}
 .footer{
 	background-color: #333876;
 	color: #ffff00;
@@ -100,13 +102,13 @@ hr {
 	background-color: #212a85;
 }
 
-#logout {
-	text-align: right;
+.logout {
+	padding-left: 8%;
+	padding-right: 0px;
 }
 
-#logout img{
-	width: 4%;
-	height: 4%;
+#logout .glyphicon{
+	padding: 1%;
 }
 
 h3 {

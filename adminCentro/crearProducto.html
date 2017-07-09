@@ -20,9 +20,9 @@
         <div class="col-md-4 col-md-offset-4" id="logoDiv" >
           <img src="../img/helpmappLogo.png" alt="logo">
         </div>
-        <div class="col-md-4 logout">
-          <p id="logout">
-          <img src="../img/cerrar-sesion.png">
+        <div class="col-md-2 col-md-offset-2 logout">
+          <p id="pe-logout">
+          <span class="pull-left showopacity glyphicon glyphicon-off"></span>
             Cerrar sesi&oacute;n
           </p>
         </div>
@@ -42,25 +42,46 @@
       <div class="row">
         <hr>
       </div>
-    </div>    
+    </div>       
+        
 
   </header>
-   
-   <div class="col-sm-2 col-md-2 navSuperAdmin">
+   <div class="col-sm-2 col-md-2 navSuperAdmin sidebar">
           <ul class="nav nav-sidebar">
-            <li class="active"><a href="index.html">Inicio <span class="sr-only">(current)</span></a></li>
-            <li>Inventario</li>
-            <ul class="nav nav-sidebar">
-              <li class="active"><a href="#">Comida <span class="sr-only">(current)</span></a></li>
+            <li class="active"><a href="index.html">Inicio <span class="sr-only">(current)</span><span class="pull-right showopacity glyphicon glyphicon-home"></span></a></li>
+           <li class="dropdown">
+              <a href="#demo" class="dropdown-toggle" data-toggle="collapse">Inventario <span class="caret"></span><span class="pull-right showopacity glyphicon glyphicon-th-list"></span></a>
+              <ul class="nav nav-sidebar sidebar-secundario panel-collapse collapse" id="demo" role="menu">
+              <li ><a href="inventarioComida.html">Comida </a></li>
               <li><a href="inventarioRopa.html">Ropa</a></li>
               <li><a href="inventarioAgua.html">Agua</a></li>
-
             </ul>
-            <li><a href="#">Agregar producto</a></li>
-            <li><a href="configuracionCuenta.html">Configuración</a></li>
-            <li id="cerrar-sesion"><a href="#">Cerrar sesi&oacuten</a></li>
+
+           </li>
+           
+            
+            <li><a href="#">Agregar producto<span class="pull-right showopacity glyphicon glyphicon-plus"></span></a></li>
+           
+           
+
+             <li class="dropdown">
+              <a href="#demo2" class="dropdown-toggle" data-toggle="collapse">Configuraci&oacute;n <span class="caret"></span><span class="pull-right showopacity glyphicon glyphicon-cog"></span></a>
+              <ul class="nav nav-sidebar sidebar-secundario panel-collapse collapse" id="demo2" role="menu">
+              <li ><a href="configuracionCuenta.html">Configuraci&oacute;n de cuenta </a></li>
+              <li><a href="configuracionCapacidades.html">Configuraci&oacute;n de centro</a></li>
+              
+            </ul>
+
+           </li>
+           
+
+
+
+            <li id="cerrar-sesion"><a href="../login.html">Cerrar sesi&oacute;n<span class="pull-right showopacity glyphicon glyphicon-off"></span></a></li>
+            
           </ul>
      </div>
+  
      <section class="col-sm-9 col-md-9 main">
        <div class="container col-sm-9 col-md-9 ">
         <h3>Crear Producto</h3>
@@ -69,7 +90,7 @@
     <div class="form-group row">
             <label class="col-sm-2 col-form-label" for="lista-acciones">Tipo</label>
             <div class="col-sm-5">
-              <select class="form-control lista-acciones">
+              <select class="form-control lista-acciones" id="lista-acciones">
                 <option>Comida</option>
                 <option>Prenda</option>
                 <option>Agua</option>
@@ -95,7 +116,7 @@
     <div class="form-group row">
       <label for="cantidad" class="col-sm-2 col-form-label">Cantidad:  </label>
       <div class="col-sm-2">
-        <input type="digit" class="form-control" id="cantidad" name="cantidad" placeholder="1">
+        <input type="number" class="form-control" id="cantidad" name="cantidad" placeholder="1">
       </div>
     </div>
     

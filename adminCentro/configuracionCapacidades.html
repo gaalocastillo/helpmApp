@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>HelpMapp-CAcopio:Index</title>
+    <title>HelpMapp-Admin:Configurar cuenta</title>
 
     <!-- Bootstrap -->
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <link href="css/estilo.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/inventarioAgua-estilo.css">
     
   <body>
+    
   <header>
-  <div class="container col-md-12 header">
+    <div class="container col-md-12 header">
       <div class="row">
         <div class="col-md-4 col-md-offset-4" id="logoDiv" >
           <img src="../img/helpmappLogo.png" alt="logo">
@@ -42,10 +42,8 @@
         <hr>
       </div>
     </div>       
-      
-
+       
   </header>
-   
     <div class="col-sm-2 col-md-2 navSuperAdmin sidebar">
           <ul class="nav nav-sidebar">
             <li class="active"><a href="index.html">Inicio <span class="sr-only">(current)</span><span class="pull-right showopacity glyphicon glyphicon-home"></span></a></li>
@@ -54,7 +52,7 @@
               <ul class="nav nav-sidebar sidebar-secundario panel-collapse collapse" id="demo" role="menu">
               <li ><a href="inventarioComida.html">Comida </a></li>
               <li><a href="inventarioRopa.html">Ropa</a></li>
-              <li><a href="#">Agua</a></li>
+              <li><a href="inventarioAgua.html">Agua</a></li>
             </ul>
 
            </li>
@@ -68,7 +66,7 @@
               <a href="#demo2" class="dropdown-toggle" data-toggle="collapse">Configuraci&oacute;n <span class="caret"></span><span class="pull-right showopacity glyphicon glyphicon-cog"></span></a>
               <ul class="nav nav-sidebar sidebar-secundario panel-collapse collapse" id="demo2" role="menu">
               <li ><a href="configuracionCuenta.html">Configuraci&oacute;n de cuenta </a></li>
-              <li><a href="configuracionCapacidades.html">Configuraci&oacute;n de centro</a></li>
+              <li><a href="#">Configuraci&oacute;n de centro</a></li>
               
             </ul>
 
@@ -81,71 +79,47 @@
             
           </ul>
      </div>
-     <section class="col-sm-9 col-md-9">
+     <section class="col-sm-9 col-md-9 main">
        <div class="container col-sm-9 col-md-9 ">
-          <h3>Agua</h3> 
-       </div>
+        <h3>Configuración de centro</h3>
+        <form class="form-horizontal" action="#">
+          <div class="form-group">
+            <label class="control-label col-sm-4" for="maxagua">Capacidad máxima de agua:</label>
+            <div class="col-sm-6">
+              <input type="number" class="form-control" id="maxagua" placeholder="43 litros" name="maxagua">
 
-      </section>
-      <div class="col-sm-9 col-md-9 contenedor-recuadros">
-      
-       <div class="recuadro">
-         <span id="cantidad">1234</span>
-         
-       </div>
-       <p id="etiqueta-galones">galones</p>
-      </div>
-
-      <div class="col-sm-9 col-md-9">
-     
-  <form>
-    <div class="form-group row">
-            <label class="col-sm-2 col-form-label" for="lista-acciones">Acci&oacute;n</label>
-            <div class="col-sm-2">
-              <select class="form-control" id="lista-acciones">
-                <option>Agregar</option>
-                <option>Enviar</option>
-                <option>Eliminar</option>
-              </select>
             </div>
-    </div>
-    <div class="form-group row">
-      <label for="cantidad-agua" class="col-sm-2 col-form-label">Cantidad</label>
-      <div class="col-sm-2">
-        <input type="number" class="form-control" id="cantidad-agua" name="cantidad-agua" placeholder="43">
-      </div>
-    </div>
-    <fieldset class="form-group row">
-      <label class="col-form-label col-sm-2">Unidad</label>
-      <div class="col-sm-10">
-        <div class="form-check">
-          <label class="form-check-label">
-            <input class="form-check-input" type="radio" name="unidades" id="litros" value="lts" checked>
-            Litros
-          </label>
-        </div>
-        <div class="form-check">
-          <label class="form-check-label">
-            <input class="form-check-input" type="radio" name="unidades" id="galones" value="gals">
-           Galones
-          </label>
-        </div>
-      </div>
-    </fieldset>
-   
-    <div class="form-group row">
-      <div class="offset-sm-2 col-sm-10">
-        <button type="submit" class="btn btn-primary"> Aceptar</button>
-      </div>
-    </div>
-  </form>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-4" for="maxcom"> Capacidad máxima de comida:</label>
+            <div class="col-sm-6">          
+              <input type="number" class="form-control" id="maxcom" placeholder="200 kg" name="maxcom">
+            </div>
+          </div>
 
-</div>
- 
-    
-    <footer class="col-md-12 footer">
+           <div class="form-group">
+            <label class="control-label col-sm-4" for="maxropa">Capacidad máxima de ropa:</label>
+            <div class="col-sm-6">          
+              <input type="number" class="form-control" id="maxropa" placeholder="1500 prendas" name="maxropa">
+
+            </div>
+          </div>
+          
+          <div class="form-group">        
+            <div class="col-sm-offset-2 col-sm-10" id="div_submit">
+              <button type="submit" class="btn btn-primary" id="btn-submit">Guardar</button>
+            </div>
+        </div>
+        </form>
+      </div>
+     </section>
+          
+     
+       <footer class="col-md-12 footer">
          <p id="pe-footer">Todos los derechos reservados. TAWS 2017.</p>
-    </footer>
+       </footer>
+    
+   
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
