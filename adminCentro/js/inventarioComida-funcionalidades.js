@@ -50,56 +50,129 @@ function createChart(){
   //   text(function(datum) { return datum.year;}).
   //   attr("transform", "translate(0, 18)").
   //   attr("class", "yAxis");
-  var svg = d3.select("svg"),
-    margin = {top: 20, right: 20, bottom: 30, left: 40},
-    width = +svg.attr("width") - margin.left - margin.right,
-    height = +svg.attr("height") - margin.top - margin.bottom;
 
-var x = d3.scaleBand().rangeRound([0, width]).padding(0.1),
-    y = d3.scaleLinear().rangeRound([height, 0]);
 
-var g = svg.append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.tsv("data.tsv", function(d) {
-  d.frequency = +d.frequency;
-  return d;
-}, function(error, data) {
-  if (error) throw error;
-
-  x.domain(data.map(function(d) { return d.letter; }));
-  y.domain([0, d3.max(data, function(d) { return d.frequency; })]);
-
-  g.append("g")
-      .attr("class", "axis axis--x")
-      .attr("transform", "translate(0," + height + ")")
-      .call(d3.axisBottom(x));
-
-  g.append("g")
-      .attr("class", "axis axis--y")
-      .call(d3.axisLeft(y).ticks(10, "%"))
-    .append("text")
-      .attr("transform", "rotate(-90)")
-      .attr("y", 6)
-      .attr("dy", "0.71em")
-      .attr("text-anchor", "end")
-      .text("Frequency");
-
-  g.selectAll(".bar")
-    .data(data)
-    .enter().append("rect")
-      .attr("class", "bar")
-      .attr("x", function(d) { return x(d.letter); })
-      .attr("y", function(d) { return y(d.frequency); })
-      .attr("width", x.bandwidth())
-      .attr("height", function(d) { return height - y(d.frequency); });
-});
-
- 
   }
+
+
+  var employees = [
+  {dept: 'arroz', age : 220},
+  {dept: 'granos', age : 260},
+  {dept: 'enlatados', age : 350},
+  {dept: 'croquetas', age : 100},
+  {dept: 'harina', age : 270}
+];
+
+var svgHeight = 400;
+var svgWidth = 400;
+var maxAge = 650; // You can also compute this from the data
+var barSpacing = 1; // The amount of space you want to keep between the bars
+var padding = {
+    left: 20, right: 0,
+    top: 20, bottom: 20
+};
+
+
+  function animateBarsUp() {
+  var maxWidth = svgWidth - padding.left - padding.right;
+  var maxHeight = svgHeight - padding.top - padding.bottom;
+
+  // Define your conversion functions
+  var convert = {    
+    x: d3.scale.ordinal(),
+    y: d3.scale.linear()
+  };
+
+  // Define your axis
+  var axis = {
+    x: d3.svg.axis().orient('bottom'),
+    y: d3.svg.axis().orient('left')
+  };
+    
+  // Define the conversion function for the axis points
+  axis.x.scale(convert.x);
+  axis.y.scale(convert.y);
+
+  // Define the output range of your conversion functions
+  convert.y.range([maxHeight, 0]);
+  convert.x.rangeRoundBands([0, maxWidth]);
+    
+  // Once you get your data, compute the domains
+  convert.x.domain(employees.map(function (d) {
+      return d.dept;
+    })
+  );
+  convert.y.domain([0, maxAge]);
+
+  // Setup the markup for your SVG
+  var svg = d3.select('.chart')
+    .attr({
+        width: svgWidth,
+        height: svgHeight
+    });
+  
+  // The group node that will contain all the other nodes
+  // that render your chart
+  var chart = svg.append('g')
+    .attr({
+        transform: function (d, i) {
+          return 'translate(' + 29 + ',' + 20 + ')';
+        }
+      });
+    
+  chart.append('g') // Container for the axis
+    .attr({
+      class: 'x axis',
+      transform: 'translate(0,' + maxHeight + ')'
+    })
+    .call(axis.x); // Insert an axis inside this node
+
+  chart.append('g') // Container for the axis
+    .attr({
+      class: 'y axis',
+      height: maxHeight
+    })
+    .call(axis.y); // Insert an axis inside this node
+
+  var bars = chart
+    .selectAll('g.bar-group')
+    .data(employees)
+    .enter()
+    .append('g') // Container for the each bar
+    .attr({
+      transform: function (d, i) {
+        return 'translate(' + convert.x(d.dept) + ', 0)';
+      },
+      class: 'bar-group'
+    });
+
+  bars.append('rect')
+        .attr({
+        y: maxHeight,
+        height: 0,
+        width: function(d) {return convert.x.rangeBand(d) - 1;},
+        class: 'bar'
+    })
+    .transition()
+    .duration(1500)
+    .attr({
+      y: function (d, i) {
+        return convert.y(d.age);
+      },
+      height: function (d, i) {
+        return maxHeight - convert.y(d.age);
+      }
+    });
+
+  return chart;
+}
 
 $(window).load(function() {
 
    createChart();
+
+
+  animateBarsUp();
 
 });
