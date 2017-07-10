@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>HelpMapp-CAcopio:Ropa Inventario</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/inventarioComida-estilo.css">
+    
+  <body>
+  <header>
+  <div class="container col-md-12 header">
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4" id="logoDiv" >
+          <img src="../img/helpmappLogo.png" alt="logo">
+        </div>
+        <div class="col-md-2 col-md-offset-2 logout">
+          <p id="pe-logout">
+          <span class="pull-left showopacity glyphicon glyphicon-off"></span>
+                       <a href="../index.html"> Cerrar sesi&oacute;n</a>
+          </p>
+        </div>
+
+
+      </div>
+
+      <div class="row">
+        <div id="titleId"  class="col-md-4 col-md-offset-4">
+          <h2 id="cabecera">
+            Sistema de administraci&oacute;n
+          </h2>  
+        </div>
+        
+      </div>
+
+      <div class="row">
+        <hr>
+      </div>
+    </div>       
+      
+
+  </header>
+   
+    <div class="col-sm-2 col-md-2 navSuperAdmin sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="index.html">Inicio <span class="sr-only">(current)</span><span class="pull-right showopacity glyphicon glyphicon-home"></span></a></li>
+           <li class="dropdown">
+              <a href="#demo" class="dropdown-toggle" data-toggle="collapse">Inventario <span class="caret"></span><span class="pull-right showopacity glyphicon glyphicon-th-list"></span></a>
+              <ul class="nav nav-sidebar sidebar-secundario panel-collapse collapse" id="demo" role="menu">
+              <li ><a href="inventarioComida.html">Comida </a></li>
+              <li><a href="#">Ropa</a></li>
+              <li><a href="inventarioAgua.html">Agua</a></li>
+            </ul>
+
+           </li>
+           
+            
+            <li><a href="crearProducto.html">Comida<span class="pull-right showopacity glyphicon glyphicon-plus"></span></a></li>
+           
+           
+
+             <li class="dropdown">
+              <a href="#demo2" class="dropdown-toggle" data-toggle="collapse">Configuraci&oacute;n <span class="caret"></span><span class="pull-right showopacity glyphicon glyphicon-cog"></span></a>
+              <ul class="nav nav-sidebar sidebar-secundario panel-collapse collapse" id="demo2" role="menu">
+              <li ><a href="configuracionCuenta.html">Configuraci&oacute;n de cuenta </a></li>
+              <li><a href="configuracionCapacidades.html">Configuraci&oacute;n de centro</a></li>
+              
+            </ul>
+
+           </li>
+           
+
+
+
+            <li id="cerrar-sesion"><a href="../login.html">Cerrar sesi&oacute;n<span class="pull-right showopacity glyphicon glyphicon-off"></span></a></li>
+            
+          </ul>
+     </div>
+
+     <section class="col-sm-9 col-md-9">
+     <div id="bar-demo"></div>
+      </section> 
+
+    <footer class="col-md-12 footer">
+         <p id="pe-footer">Todos los derechos reservados. TAWS 2017.</p>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.1/d3.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/inventarioComida-funcionalidades.js"></script>
+  </body>
+</html>
