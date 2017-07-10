@@ -152,16 +152,17 @@ li {
 
 
  @media only screen and (max-width:768px){
- 	
  	.logout{
  		display: none;
  	}
  	#cerrar-sesion{
- 		display: inherit;
+ 		display: none;
  	}
  	.navSuperAdmin{
 		padding-right: 0px;
 	}
-	
 
+	.locacion{
+		display: none;
+	}
  }

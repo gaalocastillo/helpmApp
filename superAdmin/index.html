@@ -23,26 +23,23 @@
         width: 100%;
        }
     </style>
-
   </head>
   <body>
-
   <header>
     <div class="container col-md-12 header">
       <div >
         <div class="col-sm-4 col-sm-offset-4" id="logoDiv" >
           <img src="../img/helpmappLogo.png" alt="logo">
         </div>
-        <div class="col-sm-4 logout">
-          <p id="logout">
-          <img src="../img/cerrar-sesion.png">
-            Cerrar sesi&oacute;n
-          </p>
-        </div>
-
-
+        <a href="../index.html">
+          <div class="col-sm-4 logout">
+            <p id="logout">
+            <img src="../img/cerrar-sesion.png">
+              Cerrar sesi&oacute;n
+            </p>
+          </div>
+        </a>
       </div>
-
       <div>
         <div id="titleId"  class="col-sm-4 col-sm-offset-4">
           <h2 id="cabecera">
@@ -58,20 +55,15 @@
     </div>    
 
   </header>
-
-
-
-
-
   <div>
     <section class="col-sm-12 main row container">
       <div class="col-sm-3 col-md-3 navSuperAdmin">
             <ul class="nav nav-sidebar">
-              <li class="active"><a href="#">Inicio <span class="sr-only">(current)</span></a></li>
-              <li><a href="#">Buscar centro de acopio</a></li>
-              <li><a href="#">Configuración</a></li>
-              <li><a href="#">Crear cuenta administrador</a></li>
-              <li id="cerrar-sesion"><a href="#"><i class="glyphicon glyphicon-off"></i> Cerrar sesión</a></li>
+              <li class="active"><a href="./index.html">Inicio <span class="sr-only">(current)</span></a></li>
+              <li><a href="./buscarCentroAcopio.html">Buscar centro de acopio</a></li>
+              <li><a href="./configCuenta.html">Configuración</a></li>
+              <li><a href="./crearAdmin.html">Crear cuenta administrador</a></li>
+              <li id="cerrar-sesion"><a href="../index.html"><i class="glyphicon glyphicon-off"></i> Cerrar sesión</a></li>
             </ul>
        </div>
 
@@ -94,11 +86,8 @@
         <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpbmElX0xQcjb9FB3Vk32-lj8kNiXcQ7k&callback=initMap">
         </script>
-
       </div>
-
     </section>
-
     <div class="clearfix visible-sm-block"> </div>
    <footer class="col-md-12 footer">
          <p>Todos los derechos reservados. TAWS 2017.</p>
