@@ -106,10 +106,21 @@ hr {
 	padding-left: 8%;
 	padding-right: 0px;
 }
-
-#logout .glyphicon{
-	padding: 1%;
+#pe-logout a{
+	text-decoration: none;
+	color: #59595a;
 }
+#pe-logout a:hover{
+	text-decoration: underline;
+	color: #0909f3;
+	font-size: medium;
+}
+
+#pe-logout span{
+	margin: 1%;
+}
+
+
 
 h3 {
 	color: #212a85;
