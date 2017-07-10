@@ -1,17 +1,22 @@
 
 
 function cargarCats() {
+            console.log("hola");
 
     
 
     $.getJSON("diccionarioCategorias.json", function(data) {
+            console.log("hola");
         
         let opcion = $('<option></option>');
         opcion.attr("value", "");
         opcion.text("Categoria");
-        $("#lista-categorias").append(opcion)
+        $("#lista-categorias").append(opcion);
+        console.log(opcion);
         $.each(data, function(key, val) {
+
             let categoria = val["categoria"];
+            console.log("hola");
             let tagcategoria=$('<option></option>');
             tagcategoria.attr("value",categoria);
             tagcategoria.text(categoria);
@@ -21,6 +26,7 @@ function cargarCats() {
             
 
         });
+
     });
 }
 
