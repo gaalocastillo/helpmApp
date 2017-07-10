@@ -1,0 +1,150 @@
+{
+	"table": "geo_provincia",
+	"rows":
+	[
+		{
+			"id_provincia": 1022,
+			"nombre": "Azuay",
+			"id_pais": 63,
+			"active": 1
+		},
+		{
+			"id_provincia": 1023,
+			"nombre": "Bolivar",
+			"id_pais": 63,
+			"active": 1
+		},
+		{
+			"id_provincia": 1024,
+			"nombre": "Cañar",
+			"id_pais": 63,
+			"active": 1
+		},
+		{
+			"id_provincia": 1025,
+			"nombre": "Carchi",
+			"id_pais": 63,
+			"active": 1
+		},
+		{
+			"id_provincia": 1026,
+			"nombre": "Chimborazo",
+			"id_pais": 63,
+			"active": 1
+		},
+		{
+			"id_provincia": 1027,
+			"nombre": "Cotopaxi",
+			"id_pais": 63,
+			"active": 1
+		},
+		{
+			"id_provincia": 1028,
+			"nombre": "El Oro",
+			"id_pais": 63,
+			"active": 1
+		},
+		{
+			"id_provincia": 1029,
+			"nombre": "Esmeraldas",
+			"id_pais": 63,
+			"active": 1
+		},
+		{
+			"id_provincia": 1030,
+			"nombre": "Galapagos",
+			"id_pais": 63,
+			"active": 1
+		},
+		{
+			"id_provincia": 1031,
+			"nombre": "Guayas",
+			"id_pais": 63,
+			"active": 1
+		},
+		{
+			"id_provincia": 1032,
+			"nombre": "Imbabura",
+			"id_pais": 63,
+			"active": 1
+		},
+		{
+			"id_provincia": 1033,
+			"nombre": "Loja",
+			"id_pais": 63,
+			"active": 1
+		},
+		{
+			"id_provincia": 1034,
+			"nombre": "Los Rios",
+			"id_pais": 63,
+			"active": 1
+		},
+		{
+			"id_provincia": 1035,
+			"nombre": "Manabi",
+			"id_pais": 63,
+			"active": 1
+		},
+		{
+			"id_provincia": 1036,
+			"nombre": "Morona Santiago",
+			"id_pais": 63,
+			"active": 1
+		},
+		{
+			"id_provincia": 1037,
+			"nombre": "Napo",
+			"id_pais": 63,
+			"active": 1
+		},
+		{
+			"id_provincia": 1038,
+			"nombre": "Orellana",
+			"id_pais": 63,
+			"active": 1
+		},
+		{
+			"id_provincia": 1039,
+			"nombre": "Pastaza",
+			"id_pais": 63,
+			"active": 1
+		},
+		{
+			"id_provincia": 1040,
+			"nombre": "Pichincha",
+			"id_pais": 63,
+			"active": 1
+		},
+		{
+			"id_provincia": 1041,
+			"nombre": "Sucumbios",
+			"id_pais": 63,
+			"active": 1
+		},
+		{
+			"id_provincia": 1042,
+			"nombre": "Tungurahua",
+			"id_pais": 63,
+			"active": 1
+		},
+		{
+			"id_provincia": 1043,
+			"nombre": "Zamora Chinchipe",
+			"id_pais": 63,
+			"active": 1
+		},
+		{
+			"id_provincia": 4121,
+			"nombre": "Santa Elena",
+			"id_pais": 63,
+			"active": 1
+		},
+		{
+			"id_provincia": 4122,
+			"nombre": "Santo Domingo de los Tsáchilas",
+			"id_pais": 63,
+			"active": 1
+		}
+	]
+}

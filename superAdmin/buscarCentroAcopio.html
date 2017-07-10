@@ -49,81 +49,85 @@
             <li id="cerrar-sesion"><a href="#"><i class="glyphicon glyphicon-off"></i> Cerrar sesión</a></li>
           </ul>
     </div>
-      <section class="col-sm-9 col-md-9">
+    <section class="col-sm-9 col-md-9">
        <div class="container col-sm-9 col-md-9 ">
-        <h3>Buscar centro de acopio</h3>
-        
-        <h4 class="col-sm-5">Provincia:</h4>
-        <h4 class="col-sm-5">Canton: </h4> 
+          <h3>Buscar centro de acopio</h3>
+          
+          <h4 class="col-sm-5">Provincia:</h4>
+          <h4 class="col-sm-5">Canton: </h4> 
 
-        <form class="form-vertical list" action="#">
-          <div class="form-group col-sm-5 col-md-5 ">
-             <!--<label class="control-label col-sm-4" for="pwd"></label>-->
-               <select class="questionsList">
-                 <option value = "mascota">Guayas</option>
-                 <option value = "2">Pichincha</option>
-                 <option value = "3">Azuay</option>
-                 <option value = "4">Manabi</option>
-               </select>
-      
-          </div>
-        </form>
-        <form class="form-vertical list" action="#">
-          <div class="form-group col-sm-5 col-md-5">
-              <!--<label class="control-label col-sm-4" for="pwd"></label>-->
-                 <select class="questionsList">
-                   <option value = "mascota">Guayaquil</option>
-                   <option value = "2">Progreso </option>
-                   <option value = "3">Naranjal</option>
-                   <option value = "4">Naranjito</option>
-                   <option value = "4">Duran</option>
-                   <option value = "4">Jujan</option>
-                 </select>
-          </div>
-        
-          <div class="form-group col-sm-2 col-md-2" id="div_submit">
-            <button type="submit" class="btn btn-primary" id="btn-submit">Buscar</button>
-          </div>
-          </div>
-        </form>
+          <form class="form-vertical list" action="#">
+            <div class="form-group col-sm-5 col-md-5 ">
+              <select id="province" class="questionsList"></select>
+            </div>
+          </form>
+
+          <form class="form-vertical list" action="#">
+            <div class="form-group col-sm-5 col-md-5">
+               <select id='city' class="questionsList"></select>
+            </div>
+            <div class="form-group col-sm-2 col-md-2" id="div_submit">
+              <button type="submit" class="btn btn-primary" id="btn-submit">Buscar</button>
+            </div>
+          </form>
       </div>
-      <div class="container col-sm-9 col-md-9">
-        <form class="form-horizontal" action="#">
-          <div class="form-group">
-            <label class="control-label col-sm-3" for="oldpass">Nombre del centro:</label>
-            <div class="col-sm-9">
-              <input type="text" class="form-control" id="oldpass" placeholder="nombre del centro de acopio" name="viejaclave">
+
+<!--INICIO DE LA TABLA -->
+
+    <div class="container col-sm-9 tabla-centros">
+          <div class="row">
+          <div class="col-md-12">
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Lista de centros de acopio</h3>
+                <div class="pull-right">
+                  <span class="clickable filter" data-toggle="tooltip" title="Toggle table filter" data-container="body">
+                    <i class="glyphicon glyphicon-filter"></i>
+                  </span>
+                </div>
+              </div>
+              <div class="panel-body">
+                <input type="text" class="form-control" id="dev-table-filter" data-action="filter" data-filters="#dev-table" placeholder="Filter Developers" />
+              </div>
+              <table class="table table-hover" id="dev-table">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Username</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Kilgore</td>
+                    <td>Trout</td>
+                    <td>kilgore</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Bob</td>
+                    <td>Loblaw</td>
+                    <td>boblahblah</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Holden</td>
+                    <td>Caulfield</td>
+                    <td>penceyreject</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
           </div>
-      </div>
-      <div class = "container col-sm-9 col-md-9">
-        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
 
-        <table id="myTable">
-          <tr class="header">
-            <th style="width:60%;">Name</th>
-            <th style="width:40%;">Country</th>
-          </tr>
-          <tr>
-            <td>Alfreds Futterkiste</td>
-            <td>Germany</td>
-          </tr>
-          <tr>
-            <td>Berglunds snabbkop</td>
-            <td>Sweden</td>
-          </tr>
-          <tr>
-            <td>Island Trading</td>
-            <td>UK</td>
-          </tr>
-          <tr>
-            <td>Koniglich Essen</td>
-            <td>Germany</td>
-          </tr>
-        </table>
+        </div>
+      </div>
+
+<!-- FIN DE TABLA -->
 
      </section>
-
        <footer class="col-md-12 footer">
          <p id="pe-footer">Todos los derechos reservados. TAWS 2017.</p>
        </footer>
@@ -133,5 +137,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="./js/filtrar.js"></script>
+    <script src="./js/func-tabla.js"></script>
+
   </body>
 </html>
