@@ -1,5 +1,5 @@
 .questionsList {
-	width: 30%
+	width: 70%;
 	padding-left: 0%;
 
 }
@@ -35,3 +35,10 @@
 .tabla-centros .panel-body{
 	display: none;
 }
+
+ @media only screen and (max-width:768px){
+ 	
+ 	
+	
+
+ }

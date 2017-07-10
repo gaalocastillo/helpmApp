@@ -5,7 +5,13 @@ function capturar(){
     	let opcion = $('<option></option>');
         opcion.attr("value", "")
         opcion.text("Provincia");
+
+        let ciudad = $('<option></option>');
+        ciudad.attr("value", "")
+        ciudad.text("Ciudad");        
+
         $("#province").append(opcion)
+        $("#city").append(ciudad)
         $.each(data["rows"], function(key,val) {
             let nombre = val["nombre"];
             let opcion = $('<option></option>');
@@ -43,7 +49,7 @@ function cargarCiudades(){
 
 
 function cargarCentros(){
-    $('#city').click(function(){
+    $('#btn-submit').click(function(){
         var valor = $("#city").val();
         $("#tabla-upc").empty();
         $.getJSON("./data/centros-acopio.json", function(data) {
@@ -55,7 +61,7 @@ function cargarCentros(){
                         let td_nombre = $('<td></td>');
                         let td_ciudad = $('<td></td>');
 
-                        let link = '#';
+                        let link = './verCentro.html';
 
                         let nombre = val["nombre"];
                         let  id = val["id_centro"];
@@ -77,12 +83,6 @@ function cargarCentros(){
         });
     });
 }
-
-
-
-
-
-
 
 $(window).load(function() {
  	capturar();
