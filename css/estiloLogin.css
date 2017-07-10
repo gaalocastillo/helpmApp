@@ -1,38 +1,54 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis');
 
-h4 {
-  font-family: Dosis;
-  font-weight: bold;
-  text-shadow: 0.5px 0.5px #212a85;
-}
 
+hr{
+  border-top:1px solid #120865;
+}
 li {list-style-type: none;}
 
 #btn-submit{
   background-color: #212a85;
 }
-
+.header{
+  padding: 0;
+}
 .formLogin {
-  border : 0.5px #212a85 solid;
+  border : 0.5px #b5b5b7 solid;
+  border-radius: 0.8em;
   background-color: #e0e7f0;
   box-shadow: 5px 5px 2.5px #888888;
+  position: relative;
 
+}
+.footer{
+  position: absolute;
 }
 
 a:hover{
   color : #212a85;
 }
-
+h4{
+    padding-left: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 1.7em;
+    }
 
  @media only screen and (max-width:768px){
   
   .formLogin {
   border : 0px;
-  background-color: white;
+  background-color: #e0e7f0;
+  padding: 1em;
   box-shadow: none;
 
   }
-    
+    h4{
+    padding-left: 0px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 1.7em;
+    }
 
  }
 
