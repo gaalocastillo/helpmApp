@@ -1,0 +1,1326 @@
+{
+	"table": "geo_ciudad",
+	"rows":
+	[
+		{
+			"id_ciudad": 48315,
+			"nombre": "CUENCA",
+			"id_provincia": 1022,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48316,
+			"nombre": "GIRON",
+			"id_provincia": 1022,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48317,
+			"nombre": "GUALACEO",
+			"id_provincia": 1022,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48318,
+			"nombre": "NABON",
+			"id_provincia": 1022,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48319,
+			"nombre": "PAUTE",
+			"id_provincia": 1022,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48320,
+			"nombre": "PUCARA",
+			"id_provincia": 1022,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48321,
+			"nombre": "SAN FERNANDO",
+			"id_provincia": 1022,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48322,
+			"nombre": "SANTA ISABEL",
+			"id_provincia": 1022,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48323,
+			"nombre": "SIGSIG",
+			"id_provincia": 1022,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48324,
+			"nombre": "OÑA",
+			"id_provincia": 1022,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48325,
+			"nombre": "CHORDELEG",
+			"id_provincia": 1022,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48326,
+			"nombre": "EL PAN",
+			"id_provincia": 1022,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48327,
+			"nombre": "SEVILLA DE ORO",
+			"id_provincia": 1022,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48328,
+			"nombre": "GUACHAPALA",
+			"id_provincia": 1022,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48329,
+			"nombre": "CAMILO PONCE ENRIQUEZ",
+			"id_provincia": 1022,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48330,
+			"nombre": "GUARANDA",
+			"id_provincia": 1023,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48331,
+			"nombre": "CHILLANES",
+			"id_provincia": 1023,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48332,
+			"nombre": "ECHEANDIA",
+			"id_provincia": 1023,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48333,
+			"nombre": "SAN MIGUEL",
+			"id_provincia": 1023,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48334,
+			"nombre": "CALUMA",
+			"id_provincia": 1023,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48335,
+			"nombre": "LAS NAVES",
+			"id_provincia": 1023,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48336,
+			"nombre": "AZOGUES",
+			"id_provincia": 1024,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48337,
+			"nombre": "BIBLIAN",
+			"id_provincia": 1024,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48338,
+			"nombre": "CAÑAR",
+			"id_provincia": 1024,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48339,
+			"nombre": "LA TRONCAL",
+			"id_provincia": 1024,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48340,
+			"nombre": "EL TAMBO",
+			"id_provincia": 1024,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48341,
+			"nombre": "DELEG",
+			"id_provincia": 1024,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48342,
+			"nombre": "SUSCAL",
+			"id_provincia": 1024,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48343,
+			"nombre": "TULCAN",
+			"id_provincia": 1025,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48344,
+			"nombre": "BOLIVAR",
+			"id_provincia": 1025,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48345,
+			"nombre": "ESPEJO",
+			"id_provincia": 1025,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48346,
+			"nombre": "MIRA",
+			"id_provincia": 1025,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48347,
+			"nombre": "MONTUFAR",
+			"id_provincia": 1025,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48348,
+			"nombre": "SAN PEDRO DE HUACA",
+			"id_provincia": 1025,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48349,
+			"nombre": "RIOBAMBA",
+			"id_provincia": 1026,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48350,
+			"nombre": "ALAUSI",
+			"id_provincia": 1026,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48351,
+			"nombre": "COLTA",
+			"id_provincia": 1026,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48352,
+			"nombre": "CHAMBO",
+			"id_provincia": 1026,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48353,
+			"nombre": "CHUNCHI",
+			"id_provincia": 1026,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48354,
+			"nombre": "GUAMOTE",
+			"id_provincia": 1026,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48355,
+			"nombre": "GUANO",
+			"id_provincia": 1026,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48356,
+			"nombre": "PALLATANGA",
+			"id_provincia": 1026,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48357,
+			"nombre": "PENIPE",
+			"id_provincia": 1026,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48358,
+			"nombre": "CUMANDA",
+			"id_provincia": 1026,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48359,
+			"nombre": "LATACUNGA",
+			"id_provincia": 1027,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48360,
+			"nombre": "LA MANA",
+			"id_provincia": 1027,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48361,
+			"nombre": "PANGUA",
+			"id_provincia": 1027,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48362,
+			"nombre": "PUJILI",
+			"id_provincia": 1027,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48363,
+			"nombre": "SALCEDO",
+			"id_provincia": 1027,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48364,
+			"nombre": "SAQUISILI",
+			"id_provincia": 1027,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48365,
+			"nombre": "SIGCHOS",
+			"id_provincia": 1027,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48366,
+			"nombre": "MACHALA",
+			"id_provincia": 1028,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48367,
+			"nombre": "ARENILLAS",
+			"id_provincia": 1028,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48368,
+			"nombre": "ATAHUALPA",
+			"id_provincia": 1028,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48369,
+			"nombre": "BALSAS",
+			"id_provincia": 1028,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48370,
+			"nombre": "CHILLA",
+			"id_provincia": 1028,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48371,
+			"nombre": "EL GUABO",
+			"id_provincia": 1028,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48372,
+			"nombre": "HUAQUILLAS",
+			"id_provincia": 1028,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48373,
+			"nombre": "MARCABELI",
+			"id_provincia": 1028,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48374,
+			"nombre": "PASAJE",
+			"id_provincia": 1028,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48375,
+			"nombre": "PIÑAS",
+			"id_provincia": 1028,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48376,
+			"nombre": "PORTOVELO",
+			"id_provincia": 1028,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48377,
+			"nombre": "SANTA ROSA",
+			"id_provincia": 1028,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48378,
+			"nombre": "ZARUMA",
+			"id_provincia": 1028,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48379,
+			"nombre": "LAS LAJAS",
+			"id_provincia": 1028,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48380,
+			"nombre": "ESMERALDAS",
+			"id_provincia": 1029,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48381,
+			"nombre": "ELOY ALFARO",
+			"id_provincia": 1029,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48382,
+			"nombre": "MUISNE",
+			"id_provincia": 1029,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48383,
+			"nombre": "QUININDE",
+			"id_provincia": 1029,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48384,
+			"nombre": "SAN LORENZO",
+			"id_provincia": 1029,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48385,
+			"nombre": "ATACAMES",
+			"id_provincia": 1029,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48386,
+			"nombre": "RIOVERDE",
+			"id_provincia": 1029,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48387,
+			"nombre": "LA CONCORDIA",
+			"id_provincia": 1029,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48388,
+			"nombre": "SAN CRISTÓBAL",
+			"id_provincia": 1030,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48389,
+			"nombre": "ISABELLA",
+			"id_provincia": 1030,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48390,
+			"nombre": "SANTA CRUZ",
+			"id_provincia": 1030,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48391,
+			"nombre": "GUAYAQUIL",
+			"id_provincia": 1031,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48392,
+			"nombre": "ALFREDO BAQUERIZO MORENO",
+			"id_provincia": 1031,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48393,
+			"nombre": "BALAO",
+			"id_provincia": 1031,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48394,
+			"nombre": "BALZAR",
+			"id_provincia": 1031,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48395,
+			"nombre": "COLIMES",
+			"id_provincia": 1031,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48396,
+			"nombre": "DAULE",
+			"id_provincia": 1031,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48397,
+			"nombre": "DURAN",
+			"id_provincia": 1031,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48398,
+			"nombre": "EL EMPALME",
+			"id_provincia": 1031,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48399,
+			"nombre": "EL TRIUNFO",
+			"id_provincia": 1031,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48400,
+			"nombre": "MILAGRO",
+			"id_provincia": 1031,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48401,
+			"nombre": "NARANJAL",
+			"id_provincia": 1031,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48402,
+			"nombre": "NARANJITO",
+			"id_provincia": 1031,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48403,
+			"nombre": "PALESTINA",
+			"id_provincia": 1031,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48404,
+			"nombre": "PEDRO CARBO",
+			"id_provincia": 1031,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48405,
+			"nombre": "SAMBORONDON",
+			"id_provincia": 1031,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48406,
+			"nombre": "SANTA LUCIA",
+			"id_provincia": 1031,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48407,
+			"nombre": "URBINA JADO",
+			"id_provincia": 1031,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48408,
+			"nombre": "YAGUACHI",
+			"id_provincia": 1031,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48409,
+			"nombre": "PLAYAS",
+			"id_provincia": 1031,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48410,
+			"nombre": "SIMON BOLIVAR",
+			"id_provincia": 1031,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48411,
+			"nombre": "CORONEL MARCELINO MARIDUEÑA",
+			"id_provincia": 1031,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48412,
+			"nombre": "LOMAS DE SARGENTILLO",
+			"id_provincia": 1031,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48413,
+			"nombre": "NOBOL",
+			"id_provincia": 1031,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48414,
+			"nombre": "GENERAL ANTONIO ELIZALDE",
+			"id_provincia": 1031,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48415,
+			"nombre": "ISIDRO AYORA",
+			"id_provincia": 1031,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48416,
+			"nombre": "IBARRA",
+			"id_provincia": 1032,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48417,
+			"nombre": "ANTONIO ANTE",
+			"id_provincia": 1032,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48418,
+			"nombre": "COTACACHI",
+			"id_provincia": 1032,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48419,
+			"nombre": "OTAVALO",
+			"id_provincia": 1032,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48420,
+			"nombre": "PIMAMPIRO",
+			"id_provincia": 1032,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48421,
+			"nombre": "SAN MIGUEL DE URCUQUI",
+			"id_provincia": 1032,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48422,
+			"nombre": "LOJA",
+			"id_provincia": 1033,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48423,
+			"nombre": "CALVAS",
+			"id_provincia": 1033,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48424,
+			"nombre": "CATAMAYO",
+			"id_provincia": 1033,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48425,
+			"nombre": "CELICA",
+			"id_provincia": 1033,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48426,
+			"nombre": "CHAGUARPAMBA",
+			"id_provincia": 1033,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48427,
+			"nombre": "ESPINDOLA",
+			"id_provincia": 1033,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48428,
+			"nombre": "GONZANAMA",
+			"id_provincia": 1033,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48429,
+			"nombre": "MACARA",
+			"id_provincia": 1033,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48430,
+			"nombre": "PALTAS",
+			"id_provincia": 1033,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48431,
+			"nombre": "PUYANGO",
+			"id_provincia": 1033,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48432,
+			"nombre": "SARAGURO",
+			"id_provincia": 1033,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48433,
+			"nombre": "SOZORANGA",
+			"id_provincia": 1033,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48434,
+			"nombre": "ZAPOTILLO",
+			"id_provincia": 1033,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48435,
+			"nombre": "PINDAL",
+			"id_provincia": 1033,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48436,
+			"nombre": "QUILANGA",
+			"id_provincia": 1033,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48437,
+			"nombre": "OLMEDO",
+			"id_provincia": 1033,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48438,
+			"nombre": "BABA",
+			"id_provincia": 1034,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48439,
+			"nombre": "BABAHOYO",
+			"id_provincia": 1034,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48440,
+			"nombre": "BUENA FE",
+			"id_provincia": 1034,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48441,
+			"nombre": "MOCACHE",
+			"id_provincia": 1034,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48442,
+			"nombre": "MONTALVO",
+			"id_provincia": 1034,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48443,
+			"nombre": "PALENQUE",
+			"id_provincia": 1034,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48444,
+			"nombre": "PUEBLOVIEJO",
+			"id_provincia": 1034,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48445,
+			"nombre": "QUEVEDO",
+			"id_provincia": 1034,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48446,
+			"nombre": "QUINSALOMA",
+			"id_provincia": 1034,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48447,
+			"nombre": "URDANETA",
+			"id_provincia": 1034,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48448,
+			"nombre": "VALENCIA",
+			"id_provincia": 1034,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48449,
+			"nombre": "VENTANAS",
+			"id_provincia": 1034,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48450,
+			"nombre": "VINCES",
+			"id_provincia": 1034,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48451,
+			"nombre": "24 DE MAYO",
+			"id_provincia": 1035,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48452,
+			"nombre": "BOLIVAR",
+			"id_provincia": 1035,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48453,
+			"nombre": "CHONE",
+			"id_provincia": 1035,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48454,
+			"nombre": "EL CARMEN",
+			"id_provincia": 1035,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48455,
+			"nombre": "FLAVIO ALFARO",
+			"id_provincia": 1035,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48456,
+			"nombre": "JAMA",
+			"id_provincia": 1035,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48457,
+			"nombre": "JARAMIJO",
+			"id_provincia": 1035,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48458,
+			"nombre": "JIPIJAPA",
+			"id_provincia": 1035,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48459,
+			"nombre": "JUNIN",
+			"id_provincia": 1035,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48460,
+			"nombre": "MANTA",
+			"id_provincia": 1035,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48461,
+			"nombre": "MONTECRISTI",
+			"id_provincia": 1035,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48462,
+			"nombre": "OLMEDO",
+			"id_provincia": 1035,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48463,
+			"nombre": "PAJAN",
+			"id_provincia": 1035,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48464,
+			"nombre": "PEDERNALES",
+			"id_provincia": 1035,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48465,
+			"nombre": "PICHINCHA",
+			"id_provincia": 1035,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48466,
+			"nombre": "PORTOVIEJO",
+			"id_provincia": 1035,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48467,
+			"nombre": "PUERTO LOPEZ",
+			"id_provincia": 1035,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48468,
+			"nombre": "ROCAFUERTE",
+			"id_provincia": 1035,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48469,
+			"nombre": "SAN VICENTE",
+			"id_provincia": 1035,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48470,
+			"nombre": "SANTA ANA",
+			"id_provincia": 1035,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48471,
+			"nombre": "SUCRE",
+			"id_provincia": 1035,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48472,
+			"nombre": "TOSAGUA",
+			"id_provincia": 1035,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48473,
+			"nombre": "GUALAQUIZA",
+			"id_provincia": 1036,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48474,
+			"nombre": "HUAMBOYA",
+			"id_provincia": 1036,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48475,
+			"nombre": "LIMON INDIANZA",
+			"id_provincia": 1036,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48476,
+			"nombre": "LOGROÑO",
+			"id_provincia": 1036,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48477,
+			"nombre": "MORONA",
+			"id_provincia": 1036,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48478,
+			"nombre": "PABLO VI",
+			"id_provincia": 1036,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48479,
+			"nombre": "PALORA",
+			"id_provincia": 1036,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48480,
+			"nombre": "SAN JUAN BOSCO",
+			"id_provincia": 1036,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48481,
+			"nombre": "SANTIAGO",
+			"id_provincia": 1036,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48482,
+			"nombre": "SUCUA",
+			"id_provincia": 1036,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48483,
+			"nombre": "TAISHA",
+			"id_provincia": 1036,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48484,
+			"nombre": "TIWINTZA",
+			"id_provincia": 1036,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48485,
+			"nombre": "ARCHIDONA",
+			"id_provincia": 1037,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48486,
+			"nombre": "CARLOS JULIO AROSEMENA",
+			"id_provincia": 1037,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48487,
+			"nombre": "EL CHACO",
+			"id_provincia": 1037,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48488,
+			"nombre": "QUIJOS",
+			"id_provincia": 1037,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48489,
+			"nombre": "TENA",
+			"id_provincia": 1037,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48490,
+			"nombre": "AGUARICO",
+			"id_provincia": 1038,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48491,
+			"nombre": "LA JOYA DE LOS SACHAS",
+			"id_provincia": 1038,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48492,
+			"nombre": "LORETO",
+			"id_provincia": 1038,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48493,
+			"nombre": "ORELLANA",
+			"id_provincia": 1038,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48494,
+			"nombre": "ARANJUNO",
+			"id_provincia": 1039,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48495,
+			"nombre": "MERA",
+			"id_provincia": 1039,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48496,
+			"nombre": "PASTAZA",
+			"id_provincia": 1039,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48497,
+			"nombre": "SANTA CLARA",
+			"id_provincia": 1039,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48498,
+			"nombre": "CAYAMBE",
+			"id_provincia": 1040,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48499,
+			"nombre": "MEJIA",
+			"id_provincia": 1040,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48500,
+			"nombre": "PEDRO MONCAYO",
+			"id_provincia": 1040,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48501,
+			"nombre": "PEDRO VICENTE MALDONADO",
+			"id_provincia": 1040,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48502,
+			"nombre": "PUERTO QUITO",
+			"id_provincia": 1040,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48503,
+			"nombre": "QUITO",
+			"id_provincia": 1040,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48504,
+			"nombre": "RUMIÑAHUI",
+			"id_provincia": 1040,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48505,
+			"nombre": "SAN MIGUEL DE LOS BANCOS",
+			"id_provincia": 1040,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48506,
+			"nombre": "LIBERTAD",
+			"id_provincia": 4121,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48507,
+			"nombre": "SALINAS",
+			"id_provincia": 4121,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48508,
+			"nombre": "SANTA ELENA",
+			"id_provincia": 4121,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48509,
+			"nombre": "SANTO DOMINGO DE LOS COLORADOS",
+			"id_provincia": 4122,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48510,
+			"nombre": "CASCALES",
+			"id_provincia": 1041,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48511,
+			"nombre": "CUYABENO",
+			"id_provincia": 1041,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48512,
+			"nombre": "GONZALO PIZARRO",
+			"id_provincia": 1041,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48513,
+			"nombre": "LAGO AGRIO",
+			"id_provincia": 1041,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48514,
+			"nombre": "PUTUMAYO",
+			"id_provincia": 1041,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48515,
+			"nombre": "SHUSHUFINDI",
+			"id_provincia": 1041,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48516,
+			"nombre": "SUCUMBIOS",
+			"id_provincia": 1041,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48517,
+			"nombre": "AMBATO",
+			"id_provincia": 1042,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48518,
+			"nombre": "BAÑOS",
+			"id_provincia": 1042,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48519,
+			"nombre": "CEVALLOS",
+			"id_provincia": 1042,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48520,
+			"nombre": "MOCHA",
+			"id_provincia": 1042,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48521,
+			"nombre": "PATATE",
+			"id_provincia": 1042,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48522,
+			"nombre": "QUERO",
+			"id_provincia": 1042,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48523,
+			"nombre": "SAN PEDRO DE PELILEO",
+			"id_provincia": 1042,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48524,
+			"nombre": "SANTIAGO DE PILLARO",
+			"id_provincia": 1042,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48525,
+			"nombre": "TISALEO",
+			"id_provincia": 1042,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48526,
+			"nombre": "CENTINELA DEL CONDOR",
+			"id_provincia": 1043,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48527,
+			"nombre": "CHINCHIPE",
+			"id_provincia": 1043,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48528,
+			"nombre": "EL PANGUI",
+			"id_provincia": 1043,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48529,
+			"nombre": "NANGARITZA",
+			"id_provincia": 1043,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48530,
+			"nombre": "PALANDA",
+			"id_provincia": 1043,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48531,
+			"nombre": "PAQUISHA",
+			"id_provincia": 1043,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48532,
+			"nombre": "YACUAMBI",
+			"id_provincia": 1043,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48533,
+			"nombre": "YANTZAZA",
+			"id_provincia": 1043,
+			"active": 1
+		},
+		{
+			"id_ciudad": 48534,
+			"nombre": "ZAMORA",
+			"id_provincia": 1043,
+			"active": 1
+		}
+	]
+}

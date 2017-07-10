@@ -6,5 +6,32 @@
 
 #div_submit {
 	margin-top: 0px;
+}
 
+#btn-submit{
+	background-color: #212a85;
+}
+
+.tabla-centros .row{
+    margin-top:40px;
+    padding: 0 10px;
+}
+.tabla-centros .clickable{
+    cursor: pointer;   
+}
+
+.tabla-centros .panel-heading {
+	background-color: #212a85;
+}
+
+
+.tabla-centros .panel-heading div {
+	margin-top: -18px;
+	font-size: 15px;
+}
+.tabla-centros .panel-heading div span{
+	margin-left:5px;
+}
+.tabla-centros .panel-body{
+	display: none;
 }
